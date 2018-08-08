@@ -1,0 +1,32 @@
+@import '../../stylus/global/variables'
+.items-list-wrapper
+  flex: 1 1 auto
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+  .item-wrapper
+    flex: 1 1 auto
+    display: flex
+    flex-direction: column
+    text-align: center
+    max-width: 300px
+    .item-img
+      img
+        width: 100%
+    .item-info
+      font-size: 18px
+      font-family: $font.bold-2
+      p
+        margin-top: 10px
+        margin-bottom: 10px
+    .item-actions
+      margin-top: 10px
+      display: flex
+      justify-content: center
+      margin: 20px
+      & > *
+        flex: 1 1 auto
+      & > :last-child
+        flex: 0 0 auto
+  .c-button
+    margin: 5px

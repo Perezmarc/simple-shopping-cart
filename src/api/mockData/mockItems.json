@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Ethiopia Reko",
+    "price": {
+      "value": 590,
+      "currency": "EUR"
+    },
+    "picture": "./pictures/p_1.png"
+  },
+  {
+    "name": "Guatemala San José",
+    "price": {
+      "value": 850,
+      "currency": "EUR"
+    },
+    "picture": "./pictures/p_2.png"
+  },
+  {
+    "name": "Mexico El Triungo",
+    "price": {
+      "value": 1050,
+      "currency": "EUR"
+    },
+    "picture": "./pictures/p_3.png"
+  }
+]

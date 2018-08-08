@@ -1,0 +1,31 @@
+@import '../../stylus/global/variables'
+
+.shopping-cart-wrapper
+  flex: 1 1 auto
+  display: flex
+  flex-wrap: wrap
+  .shopping-cart-list-container
+    flex: 1 1 auto
+    display: flex
+    flex-direction: column
+
+    .subtotal-wrapper
+      display: flex
+      align-items: baseline
+      justify-content: flex-end
+      flex: 1 1 auto
+      .subtotal-text
+        color: $theme.grey.darken-1
+        margin-right: 10px
+      .subtotal-value
+        font-size: $headings.h2.size
+        font-family: $headings.h2.font-family
+        color: $theme.grey.darken-2
+        white-space: nowrap
+  .footer-actions
+    & > div
+      margin-right: 10px
+  .checkout-form-wrapper
+    flex: 0 500px
+    display: flex
+    align-items: flex-start

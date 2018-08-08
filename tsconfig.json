@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es2015",
+      "es2016",
+      "esnext"
+    ],
+    "types": [
+      "node",
+      "vue"
+   ],
+    "jsx": "preserve",
+    "sourceMap": true,
+    "allowJs": true,
+    "removeComments": true
+  },
+  "exclude": [
+    "node_modules",
+    "../node_modules",
+    "../node_modules/@types/mocha/index.d.ts"
+  ]
+}

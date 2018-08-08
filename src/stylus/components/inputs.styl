@@ -1,0 +1,48 @@
+label
+  font-family: $font.bold-1
+  font-size: 11px
+  opacity: 0.4
+  letter-spacing: 1px
+
+input
+  &.c-input
+    background: transparent
+    padding: 10px 0
+    border: 0
+    border-bottom: 1px solid rgba(200,200,200, 0.3)
+    color: rgba(255,255,255, 0.9)
+    position: relative
+    width: 100%
+    font-size: 14px
+    margin-bottom: 20px
+  &:after
+    content: ''
+    display: bottom
+    height: 1px 
+    width: 100%
+    max-width: 0
+    background: $theme.primary
+    position: absolute
+    bottom: 1px
+  &:focus
+    &:after
+      max-width: 100%
+
+.c-select-wrapper
+  background: url(../assets/img/icons/arrow-down.png) no-repeat 98% 50%
+  overflow: hidden
+  background-repeat: no-repeat
+  background-size: 10px 6px
+  select
+    &.c-select
+      border: 0
+      border-radius: 0
+      color: rgba(255,255,255, 0.9)
+      border-bottom: 1px solid rgba(200,200,200, 0.3)
+      background: transparent
+      font-size: 14px
+      font-weight: bold
+      padding: 10px 0
+      width: 100%
+      min-width: 40px
+      -webkit-appearance: none
